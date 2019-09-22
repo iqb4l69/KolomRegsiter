@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="register">Register</string>
+    <string-array name="gender">
+        <item></item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+        <item>Setengah Laki-Laki</item>
+        <item>Setengah Perempuan</item>
+    </string-array>
+</resources>

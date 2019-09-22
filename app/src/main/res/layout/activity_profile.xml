@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="1">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Nama :"
+          android:id="@+id/nama"></TextView>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Jenis Kelamin :"
+            android:id="@+id/gender"></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Email :"
+           android:id="@+id/email"></TextView>
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Telepon :"
+            android:id="@+id/telp"></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Alamat :"
+           android:id="@+id/address"></TextView>
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="1">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Nama :"
+          android:id="@+id/nama_value"></TextView>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Jenis Kelamin :"
+            android:id="@+id/gender_value"></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Nama :"
+           android:id="@+id/email_value"></TextView>
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Telepon :"
+            android:id="@+id/telp_value"></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Alamat :"
+           android:id="@+id/address_value"></TextView>
+</LinearLayout>
+
+
+
+
+    </LinearLayout>
